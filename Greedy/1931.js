@@ -38,9 +38,12 @@ rl.on("line", function (line) {
     //여러줄 입력
     input.push(line);
 }).on("close", function () {
+    //n명
     let n = parseInt(input[0]);
+    //회의실 list
     input = input.slice(1);
 
+    //2차원배열로 int형으로 변환
     let list = [];
     for(i of input){
         list.push(i.split(' ').map((el) => parseInt(el)));
