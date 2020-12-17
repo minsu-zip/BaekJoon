@@ -1,6 +1,4 @@
 // 실버1 동전0 문제
-// 다른 풀이 로직과 일치 
-// 사이트 문제로 통과 x
 
 function solution(n, k, list) {
     let count = 0;
@@ -30,7 +28,6 @@ rl.on("line", function (line) {
     input.push(line)
 }).on("close", function () {
 
-    console.log(input);
     //tmp에 n, k 저장
     let tmp = input[0].split(' ').map((el) => parseInt(el));
    
