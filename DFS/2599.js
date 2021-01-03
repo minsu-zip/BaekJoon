@@ -1,4 +1,5 @@
 //실버4 짝 정하기
+// 실패한 문제
 function solution(list) {
   //같은 학교인지 판별하기 위한 방문표시
   let visited = new Array(list.length).fill(false);
